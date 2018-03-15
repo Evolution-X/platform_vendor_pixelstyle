@@ -63,4 +63,10 @@
         <item>content://media/internal/audio/media/6?canonical=1&amp;title=School\'s%20Out</item>
         <item>content://media/internal/audio/media/12?canonical=1&amp;title=Zen%20Too</item>
     </string-array>
+
+    <!-- System font packages (overlay in vendor) -->
+    <string-array name="config_fontPackages" translatable="false">
+        <item>com.evolution.fonts</item>
+    </string-array>
+
 </resources>
