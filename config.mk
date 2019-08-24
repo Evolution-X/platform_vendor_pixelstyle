@@ -21,7 +21,7 @@ PRODUCT_PACKAGES += \
     WellbeingPrebuilt \
     MarkupGoogle \
     EvoXFonts \
-    EvoXPapers \
+    Papers \
     NexusWallpapersStubPrebuilt2018 \
     SubstratumSignature \
     WeatherClient
