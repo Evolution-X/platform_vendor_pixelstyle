@@ -23,8 +23,7 @@ PRODUCT_PACKAGES += \
     EvoXFonts \
     Papers \
     NexusWallpapersStubPrebuilt2018 \
-    SubstratumSignature \
-    WeatherClient
+    SubstratumSignature
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
@@ -82,8 +81,6 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/pixelstyle/overlay
 DEVICE_PACKAGE_OVERLAYS += \
     vendor/pixelstyle/overlay/common/
 
-# Weather
+# Permissions
 PRODUCT_COPY_FILES += \
-    vendor/pixelstyle/etc/permissions/org.pixelexperience.weather.client.xml:system/etc/permissions/org.pixelexperience.weather.client.xml \
-    vendor/pixelstyle/etc/default-permissions/org.pixelexperience.weather.client.xml:system/etc/default-permissions/org.pixelexperience.weather.client.xml \
     vendor/pixelstyle/etc/default-permissions/com.google.android.markup.xml:system/etc/default-permissions/com.google.android.markup.xml
